@@ -4,19 +4,11 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using Microsoft.Extensions.Logging;
 
-namespace code2.Pages
+namespace Yotsuba.Pages.En
 {
-    public class EnIndexModel : PageModel
+    public class IndexModel : PageModel
     {
-        private readonly ILogger<EnIndexModel> _logger;
-
-        public EnIndexModel(ILogger<EnIndexModel> logger)
-        {
-            _logger = logger;
-        }
-
         public void OnGet()
         {
         }

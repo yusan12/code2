@@ -1,11 +1,53 @@
 ﻿@page
-@model JaIndexModel
+@model Yotsuba.Pages.Ja.IndexModel
 @{
-    ViewData["Title"] = "Yotsuba";
+    ViewData["Title"] = "ホームページ";
 }
-<h1>@ViewData["Title"]</h1>
 
-<p>
-    ダブリンで毎週開催される日本語と文化の交流会。
-    すぐに戻ってくることを願っています。
-</p>
+<div class="container">
+
+    <img src="~/images/Banner.png" alt="Yotsuba Japanese meetup &mdash; Dublin" width="400" />
+
+    <div class="row" style="margin-bottom: 100px;">
+
+
+        <p style="font-size: 30px;">
+
+            <img src="~/images/Yotsuba-san.jpg" width="200" class="float-right" />
+
+            ダブリンで毎週開催されるアイルランドと日本のカルチャーのミートアップです。
+            早く再開できることを願っています。<br />
+            それまではTwitterのフォローとDiscordでの参加をお願いします。
+        </p>
+
+    </div>
+
+    <div class="row">
+        <div class="col">
+
+            <iframe src="https://discord.com/widget?id=725775417818087505&theme=dark"
+                    width="350"
+                    height="500"
+                    allowtransparency="true"
+                    frameborder="0"
+                    sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts">
+            </iframe>
+
+        </div>
+
+        <div class="col">
+
+            <a class="twitter-timeline"
+               data-lang="ja"
+               data-width="400"
+               data-height="800"
+               data-theme="dark"
+               href="https://twitter.com/JapaneseInDub?ref_src=twsrc%5Etfw">
+                Tweets by JapaneseInDub
+            </a>
+
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+        </div>
+    </div>
+</div>
