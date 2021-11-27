@@ -1,44 +1,11 @@
-﻿@page
-@model Yotsuba.Pages.En.IndexModel
+@page
+@model EnIndexModel
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = "Yotsuba";
 }
+<h1>@ViewData["Title"]</h1>
 
-<div class="container">
-
-    <img src="~/images/Banner.png" alt="Yotsuba Japanese meetup &mdash; Dublin" width="400" />
-
-    <div class="row" style="margin-bottom: 100px;">
-        
-        <p style="font-size: 30px;">
-
-            <img src="~/images/Yotsuba-san.jpg" width="200" class="float-right" />
-
-            A Japanese language and culture meetup held every week in Dublin.
-            <br>We hope to be back soon. Until then, you can follow us on Twitter or join us on Discord:
-        </p>
-
-    </div>
-
-    <div class="row">
-        <div class="col">
-
-            <iframe src="https://discord.com/widget?id=725775417818087505&theme=dark"
-                    width="350"
-                    height="500"
-                    allowtransparency="true"
-                    frameborder="0"
-                    sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts">
-            </iframe>
-
-        </div>
-
-        <div class="col">
-
-            <a class="twitter-timeline" data-width="400" data-height="800" data-theme="dark" 
-            href="https://twitter.com/YotsubaDublin?ref_src=twsrc%5Etfw">Tweets by YotsubaDublin</a>
-            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-        </div>
-    </div>
-</div>
+<p>
+    A Japanese language and culture meetup held every week in Dublin.
+    We hope to be back soon.
+</p>

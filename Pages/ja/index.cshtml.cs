@@ -4,11 +4,19 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.Extensions.Logging;
 
-namespace Yotsuba.Pages.Ja
+namespace code2.Pages
 {
-    public class IndexModel : PageModel
+    public class JaIndexModel : PageModel
     {
+        private readonly ILogger<JaIndexModel> _logger;
+
+        public JaIndexModel(ILogger<JaIndexModel> logger)
+        {
+            _logger = logger;
+        }
+
         public void OnGet()
         {
         }
