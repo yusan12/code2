@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/suzukiyu/suzukiyu/code2/code2.csproj": {}
+    "/Users/suzukiyu/code2/code2.csproj": {}
   },
   "projects": {
-    "/Users/suzukiyu/suzukiyu/code2/code2.csproj": {
+    "/Users/suzukiyu/code2/code2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/suzukiyu/suzukiyu/code2/code2.csproj",
+        "projectUniqueName": "/Users/suzukiyu/code2/code2.csproj",
         "projectName": "code2",
-        "projectPath": "/Users/suzukiyu/suzukiyu/code2/code2.csproj",
+        "projectPath": "/Users/suzukiyu/code2/code2.csproj",
         "packagesPath": "/Users/suzukiyu/.nuget/packages/",
-        "outputPath": "/Users/suzukiyu/suzukiyu/code2/obj/",
+        "outputPath": "/Users/suzukiyu/code2/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/suzukiyu/.nuget/NuGet/NuGet.Config"
