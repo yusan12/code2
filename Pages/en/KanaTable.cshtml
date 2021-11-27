@@ -1,0 +1,44 @@
+@page
+@model Yotsuba.Pages.En.KanaTableModel
+@addTagHelper *, code2
+<style>
+
+    .kana{
+        display: inline-block;
+        text-align: center;
+        margin: 2px;
+    }
+
+    .kana div:first-child{
+        font-size: 30px;
+        background-color: lime;
+        padding: 5px 10px;
+    }
+
+    .kana div:last-child{
+        color: #333;
+        background-color: orange;
+        font-size: 16px;
+        padding: 5px 10px;
+    }
+
+    .hiragana div:first-child{
+        background-color: #ccefff;
+    }
+
+    .hiragana div:last-child{
+        background-color: #99dfff;
+    }
+
+    .katakana div:first-child{
+        background-color: #ccffcc;
+    }
+
+    .katakana div:last-child{
+        background-color: #99ff99;
+    }
+
+</style>
+<kana class="hiragana" romaji="ji" kana-char="じ"></kana>
+<kana romaji="yu" kana-char="ゆ"></kana>
+<kana romaji="ra" kana-char="ら"></kana>
